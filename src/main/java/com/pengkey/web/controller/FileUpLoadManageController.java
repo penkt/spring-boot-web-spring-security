@@ -1,4 +1,4 @@
-package com.pengkey.controller;
+package com.pengkey.web.controller;
 
 
 import org.springframework.beans.factory.annotation.Value;

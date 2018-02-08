@@ -1,17 +1,13 @@
-package com.pengkey.controller;
+package com.pengkey.web.controller;
 
 import com.pengkey.request.FileInfoRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-import org.thymeleaf.expression.Maps;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 @Controller
 @RequestMapping("/fileDownManage")

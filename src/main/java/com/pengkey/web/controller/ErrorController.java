@@ -1,7 +1,6 @@
-package com.pengkey.controller;
+package com.pengkey.web.controller;
 
 import com.pengkey.expection.NotFoundExpection;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
